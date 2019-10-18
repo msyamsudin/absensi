@@ -1,0 +1,125 @@
+body > .container {
+	padding: 70px 15px 0;
+	font-family: calibri;
+}
+
+/* Awal CSS Login User */
+.tblLogin {
+	border: #95bee6 1px solid;
+    background: #d1e8ff;
+    border-radius: 4px;
+}
+.tableheader {
+    font-size: 24px;
+}
+.tableheader td {
+    padding: 20px;
+}
+.tablerow td{
+	text-align:center;
+}
+.message {
+color: #FF0000;
+font-weight: bold;
+text-align: center;
+width: 100%;
+}
+.login-input {
+	border: #CCC 1px solid;
+    padding: 10px 20px;
+}
+.btnHome {
+	padding: 2px 20px;
+    background: #272728;
+    border: 0px;
+    color: #FFF;
+}
+.btnSubmit {
+	padding: 2px 20px;
+    background: #2c7ac5;
+    border: 0px;
+    color: #FFF;
+}
+.btnSubmitPulang {
+	padding: 2px 20px;
+    background: #EE2215;
+    border: 0px;
+    color: #FFF;
+}
+a:hover {
+    text-decoration: none;
+		color: white;
+}
+/* Akhir CSS Login User */
+
+.btnFilter {
+	margin-bottom: 1000px;
+}
+
+/* Awal CSS Snackbar (notifikasi) */
+#salah {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #f44242;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 45%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#benar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #425ff4;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 45%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+#salah.show , #benar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+/* Akhir CSS Snackbar (notifikasi) */
+
+/* Awal Lokasi Tombol Log */
+.lokasi-btn-log {
+    position: absolute;
+    margin-top: 128px;
+    z-index: 1; /* Mengatur tumpukan pada CSS */
+}
+/* Akhir Lokasi Tombol Log */

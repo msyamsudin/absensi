@@ -1,0 +1,11 @@
+
+[26-Mar-2019 03:34:38 UTC] PHP Notice:  Undefined variable: user_id in /home/iflowid/public_html/portofolio/absensi/cek.php on line 40
+[29-Apr-2019 06:34:28 UTC] PHP Notice:  Undefined variable: user_id in /home/iflowid/public_html/portofolio/absensi/cek.php on line 40
+[29-Apr-2019 06:35:00 UTC] PHP Notice:  Undefined index: id in /home/iflowid/public_html/portofolio/absensi/cekoke.php on line 8
+[10-May-2019 15:09:51 UTC] PHP Notice:  Undefined variable: user_id in /home/iflowid/public_html/portofolio/absensi/cek.php on line 40
+[10-May-2019 15:10:03 UTC] PHP Notice:  Undefined index: id in /home/iflowid/public_html/portofolio/absensi/cekoke.php on line 8
+[10-May-2019 15:10:09 UTC] PHP Notice:  Undefined index: id in /home/iflowid/public_html/portofolio/absensi/cekoke.php on line 8
+[10-May-2019 15:10:13 UTC] PHP Notice:  Undefined index: id in /home/iflowid/public_html/portofolio/absensi/cekoke.php on line 8
+[30-May-2019 20:42:25 UTC] PHP Notice:  Undefined index: id in /home/iflowid/public_html/portofolio/absensi/edituser.php on line 7
+[24-Jun-2019 06:32:39 UTC] PHP Notice:  Undefined variable: user_id in /home/iflowid/public_html/portofolio/absensi/cek.php on line 40
+[18-Oct-2019 12:25:05 UTC] PHP Notice:  Undefined variable: user_id in /home/iflowid/public_html/portofolio/absensi/cek.php on line 40
